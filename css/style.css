@@ -1,0 +1,232 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,800);
+
+body{
+  text-align: center;
+  background: #EAEBe8;
+}
+
+.row.top{
+  z-index: 1;
+  margin: 15px auto 0;
+  text-transform: uppercase;
+  color: #47423E;
+}
+
+.row.top a{
+  color: #47423E
+}
+
+.row.top .col-xs-2.col-xs-offset-2{
+  padding: 13px;
+}
+
+.home{
+  margin-left: 68px;
+}
+
+.row.top > .col-xs-5{
+  text-align: right;
+  /*margin-right: 19px;*/
+}
+
+.input-group{
+  margin-bottom: 5px;
+}
+
+
+#about{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 90px;
+  margin-bottom: 0px;
+}
+
+#byline{
+  color: white;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.about_us{
+  background-image: url('../img/backgroundTrees.jpg');
+  height: 250px;
+  z-index: -1;
+  color: white;
+}
+
+/*****************************************  SIDEBAR  ************************************/
+#sidebar{
+  background-image: url('../img/sidebarBack.png');
+  background-color: #47423E;
+  text-align: left;
+  margin-left: 4px;
+}
+
+.nav > li > a{
+  color: white;
+  border-top: 1px solid grey;
+}
+
+.nav > li > a:hover{
+  background-color: #73B364;
+  color: #47423e;
+}
+
+.dropdown-menu.pull-right{
+  background-color: #73B364;
+  color: #47423e;
+
+}
+
+#sidebar.affix-top {
+  position: static;
+  top: 21px;
+  width: 188px;
+}
+
+#sidebar.affix {
+  position: fixed;
+  top: 21px;
+  width: 188px;
+}
+
+.symbol, .caret{
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); //For IE support
+  float: right;
+  color: white;
+}
+
+/******************************************* CONTENT ***************************************/
+.content_wrapper{
+  background: #fff;
+}
+
+#give_best_headline{
+  text-align: left;
+  margin-top: 45px;
+  margin-left: 27px;
+  font-size: 16px;
+}
+
+#give_best_copy{
+  text-align: left;
+  margin-left: 27px;
+  line-height: 1.5;
+  font-size: 12px;
+  margin-bottom: 45px;
+}
+
+.two_guys{
+  width: 75%;
+}
+
+.two_guys_description{
+  text-align: center;
+  margin: 5px auto;
+  width: 69%;
+}
+
+
+/******************************* MEET THE FLOCK **********************/
+
+.row.wow.fadeInRight.animated, .row.team2{
+  margin-right: 19px;
+}
+
+.section-header {
+  margin: 16px auto;
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 30%;
+}
+
+h2.meet_the_flock{
+  font-size: 16px;
+}
+
+.our-team{
+  padding-bottom: 66px;
+  padding-top: 27px;
+  background: #eaebe8;
+}
+.team-member{
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.team-member .profile-pic{
+  background: #eaebe8;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 15px;
+  background: #eaebe8;
+}
+
+.team-member .profile-pic a:hover{
+  background-color: black;
+  z-index: 2;
+}
+
+.team-member .profile-pic img{
+  width: 100%;
+  height: 100%;
+  background: #eaebe8;
+}
+
+.team-member h5{
+  text-transform: uppercase;
+  color: #404040;
+  font-weight: 700;
+  position: relative;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.team-member .interests{
+  font-size: 10px;
+  margin-top: 3px;
+  text-align: center;
+}
+
+/*********************************FOOTER***********************/
+
+.footer{
+  color: white;
+  background-image: url('../img/footer.jpg');
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.footer a{
+  color: white;
+}
+
+.col-xs-12.footerTop{
+  margin-top: 15px;
+}
+
+img#duck{
+  margin-right: 20px;
+}
+
+img#caddis{
+  margin-left: 18px;
+}
+
+
+
